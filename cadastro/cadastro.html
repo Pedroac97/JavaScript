@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de clientes</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nacimento: 
+                <input type="number" id="ano" name="ano" min="0"><br>
+            </p>
+            <p>sexo: 
+                <input type="radio" name="radsex" value="M" title="masculino" id="mas">
+                <label for="mas"> Masculino</label>
+                <input type="radio" name='radsex' value="F" title="Feminino" id="fem">
+                <label for="fem"> Feminino<br></label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p id="tex">Analisando...</p>
+            <img src="img/img.jpg" alt="foto" id="img">
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy;Sites Pedro Cordeiro </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

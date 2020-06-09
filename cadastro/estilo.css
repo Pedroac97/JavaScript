@@ -1,0 +1,31 @@
+body{
+    background-color: blue;
+}
+header{
+    text-align: center;
+    color: #fff;
+}
+#ano{
+    width: 50px;
+}
+section{
+    background-color: #fff;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.575);
+}
+#res{
+    text-align: center;
+}
+img#img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+footer{
+    color: #fff;
+    text-align: center;
+}
