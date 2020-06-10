@@ -1,4 +1,15 @@
 header{
+	background-color: #036704;
+	/* padding-top: 15px; */
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+header {
+    background-position: 40px;
+}
+footer{
+
 	background-color: #333;
 	height: 3em;
 	color: #FFF;
