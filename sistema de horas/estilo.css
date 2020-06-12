@@ -29,3 +29,6 @@ img#imagem {
     height: 200px;
     border-radius: 100%;
 }
+section a{
+    text-align: left!important;
+}
