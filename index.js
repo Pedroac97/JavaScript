@@ -1,7 +1,7 @@
 function ano(){
     var msg = document.getElementById('ano')
     var agora = new Date()
-    var ano = agora.ano()
-    msg.innerHTML = `São: <b>${ano} Projetos Pedro Cordeiro `
-    document.body.style.background = 'rgb(249, 195, 139)'
+    var ano = agora.getFullYear()
+    msg.innerHTML = `©${ano}, Projetos Pedro Cordeiro `
+    console.log(`©${ano}, Projetos Pedro Cordeiro `)
 }
