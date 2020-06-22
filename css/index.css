@@ -34,10 +34,11 @@ h1,h2,h5{
 p.link {
 	text-align: center;
 }
-/* .btn{
+.btn .link{
 	text-align: center;
     padding: .5em 2em;
     border: 0;
+    border-radius: 10px;
     border-bottom: 3px solid;
     font-size: 1.2em;
     cursor: pointer;
@@ -47,4 +48,9 @@ p.link {
     border-color: #04324c;
     width: 20%;
     margin: 10px 0px;
-} */
+    margin-left: 30vh;
+    transition: 0.3s;
+} 
+.link:hover{
+    border-bottom: 0px;
+}
