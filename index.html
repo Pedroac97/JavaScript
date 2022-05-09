@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
+    <script>
+        // verifica se á algum dataLayer, caso não tenha adiciona
+        var dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            "TypePage": "Relogio"
+        })
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -49,7 +55,7 @@
                     </ul>
                 </p>
                 <div class="btn">
-                    <p class="link"><a href="sistema de horas/horas.html">Confira aqui</a></p>
+                    <p class="link"><a onclick="dataLayer" href="sistema de horas/horas.html">Confira aqui</a></p>
                 </div>
             </article>
             <article>
